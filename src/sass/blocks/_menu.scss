@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 921px;
+    left: 349px;
+    top: 46px;
+    padding-right: 65px;
+    &__item {
+        list-style-type: none;
+        span {
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+    &__link {
+        font-family: Roboto;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 23px;
+    }
+}

@@ -1,0 +1,55 @@
+.first-screen {
+    background: url('../../images/background.jpg') center center/cover no-repeat;
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    &__logo {
+        position: relative;
+        left: 62px;
+        top: 21px;
+        width: 242px;
+        height: 82px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .crown {
+        position: absolute;
+        width: 121px;
+        height: 177px;
+        left: 659px;
+        top: 153px;
+    }
+    .gradient {
+        position: absolute;
+        width: 100%;
+        height: 247px;
+        left: 0px;
+        top: 777px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 24.22%, #1A1A1A 100%);
+    }
+    &__header {
+        position: absolute;
+        width: 597px;
+        height: 425px;
+        left: 62px;
+        top: 214px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 94px;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 15px #4FAB63;
+        color: transparent; /* прозрачный цвет букв */
+        -webkit-text-stroke: 1px #4FAB63;
+    }
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 1024px;
+        left: 0px;
+        top: 0px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(28, 142, 135, 0.025) 0%, rgba(26, 26, 26, 0.275) 100%);
+    }  
+}

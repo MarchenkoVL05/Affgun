@@ -1,0 +1,16 @@
+@import 'base/variables';
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+  }
+
+
+@import 'blocks/first-screen';
+@import 'blocks/menu';
+@import 'blocks/buttons';
+@import 'blocks/sitters';
