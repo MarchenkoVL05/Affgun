@@ -1,0 +1,35 @@
+@keyframes fadeRight {
+    from {
+        width: 37%;
+        height: 100%;
+        left: 1953px;
+    }
+    50% {
+        left: 850px;
+        width: 37%;
+        height: 100%;
+    }
+    75% {
+        width: 37%;
+        height: 100%;
+    }
+    to {
+        left: 1953px;
+        width: 0%;
+        height: 0%;
+    }
+}
+
+
+@keyframes fadeBottom {
+    from {
+        bottom: -265px;
+    }
+    50% {
+        bottom: 0px;
+    }
+    to {
+        bottom: -265px;
+    }
+}
+

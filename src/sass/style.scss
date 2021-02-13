@@ -1,4 +1,5 @@
 @import 'base/variables';
+@import 'base/animations';
 
 * {
     box-sizing: border-box;
@@ -9,8 +10,12 @@ html, body {
     padding: 0;
   }
 
+.container {
+    margin: 0 auto;
+}
 
 @import 'blocks/first-screen';
 @import 'blocks/menu';
 @import 'blocks/buttons';
 @import 'blocks/sitters';
+@import 'blocks/side-nav';

@@ -1,5 +1,6 @@
 .first-screen {
-    background: url('../../images/background.jpg') center center/cover no-repeat;
+    overflow: hidden;
+    background: url('../images/background.jpg') center center/cover no-repeat;
     position: relative;
     width: 100%;
     height: 1024px;
@@ -52,4 +53,38 @@
         top: 0px;
         background: radial-gradient(50% 50% at 50% 50%, rgba(28, 142, 135, 0.025) 0%, rgba(26, 26, 26, 0.275) 100%);
     }  
+
+    .man {
+        position: absolute;
+        top: 0px;
+        bottom: -265px;
+        right: -250px;
+        left: 1953px;
+        width: 0%;
+        height: 0%;
+        animation-name: fadeRight;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in;
+    }
+    
+    .money {
+        position: absolute;
+        bottom: -265px;
+        width: 1065px;
+        height: 264px;
+        z-index: 1;
+        animation-name: fadeBottom;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-in;
+        animation-delay: 0.5s;
+    }
+
+    .chair {
+        position: absolute;
+        width: 824px;
+        height: 380px;
+        left: 326px;
+        top: 674px;
+        z-index: 2;
+    }
 }
