@@ -1,0 +1,36 @@
+.slider {
+    &__left {
+        position: absolute;
+        bottom: 200px;
+        left: 120px;
+        background-color: transparent;
+        border: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 120px;
+        text-transform: uppercase;
+        color: $main-color;
+        z-index: 2;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__right {
+        position: absolute;
+        bottom: 200px;
+        left: 1250px;
+        background-color: transparent;
+        border: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 120px;
+        text-transform: uppercase;
+        color: $main-color;
+        z-index: 2;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

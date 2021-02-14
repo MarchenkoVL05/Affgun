@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Affgun</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 </head>
 <body>
     <section class="first-screen">
@@ -41,7 +44,27 @@
                 </div>
         
                 <img  class="crown" src="icons/crown.png" alt="crown">
-                <img class="sitters sitters__putin" src="icons/putin.png" alt="putin">
+
+
+                <div class="sitters">
+                    <div class="sitters__slider">
+                        <div>
+                            <img class="sitters sitters__putin" src="icons/putin.png" alt="slide">
+                        </div>
+                        <div>
+                            <img class="sitters sitters__dog" src="icons/dog.png" alt="slide">
+                        </div>
+                        <div>
+                            <img class="sitters sitters__granny" src="icons/granny.png" alt="slide">
+                        </div>
+                        <div>
+                            <img class="sitters sitters__tatoo" src="icons/tatoo.png" alt="slide">
+                        </div>
+                    </div>
+                </div>
+                <button class="slider__left">&#8249</button>
+                <button class="slider__right">&#8250</button>
+                
                 <img class="chair" src="icons/chair.png" alt="chair">
 
                 <div class="featured">
@@ -67,6 +90,9 @@
         </div>
     </section>
 
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
