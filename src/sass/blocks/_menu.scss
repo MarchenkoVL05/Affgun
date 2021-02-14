@@ -1,12 +1,10 @@
 .menu {
     display: flex;
-    position: absolute;
     justify-content: space-between;
     align-items: center;
-    width: 921px;
-    left: 349px;
-    top: 46px;
-    padding-right: 65px;
+    padding-right: 35px;
+    padding-left: 350px;
+    padding-top: 0;
     &__item {
         list-style-type: none;
         span {

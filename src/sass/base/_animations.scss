@@ -33,3 +33,12 @@
     }
 }
 
+@keyframes textShadow {
+    from {
+        text-shadow: 0px 0px 15px #4FAB63;
+    }
+    to {
+        text-shadow: 0px 0px 15px #226e35;
+    }
+}
+

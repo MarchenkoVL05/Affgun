@@ -1,11 +1,11 @@
 .sitters {
     &__putin {
+        position: relative;
         display: block;
-        position: absolute;
         width: 660px;
         height: 637px;
-        left: 406px;
-        top: 335px; 
-        z-index: 3;
+        margin-top: 100px;
+        margin-left: 380px;
+        z-index: 2;
     }
 }

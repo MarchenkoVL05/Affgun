@@ -1,0 +1,42 @@
+.featured {
+    position: relative;
+    bottom: 948px;
+    right: 80px;
+
+    &__img {
+        position: absolute;
+        right: 20px;
+        left: 1130px;
+        top: 185px;
+        width: 250px;
+        height: 225px;
+        z-index: 2;
+        filter: drop-shadow(0px 0px 10px $main-color);
+    }
+    &__border {
+        position: absolute;
+        left: 1008px;
+        top: 226px;
+        width: 350px;
+        height: 350px;
+        opacity: 0.8;
+        filter: drop-shadow(0px 0px 10px $main-color);
+        border-radius: 5px;
+        border: 5px solid $main-color;
+        z-index: 1;
+    }
+    &__header {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: $main-color;
+        position: absolute;
+        width: 163px;
+        height: 88px;
+        left: 30px;
+        top: 237px;
+    }
+}
